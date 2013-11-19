@@ -4,7 +4,6 @@
 
 # sbt specific
 dist/*
-default.properties
 target/
 lib_managed/
 src_managed/
