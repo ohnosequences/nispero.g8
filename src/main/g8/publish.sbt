@@ -2,6 +2,6 @@ import ohnosequences.sbt._
 
 publishMavenStyle := false
 
-bucketSuffix := "$bucketsSuffix$"
+bucketSuffix := "$bucketSuffix$"
 
 isPrivate := true
