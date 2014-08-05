@@ -14,7 +14,7 @@ libraryDependencies ++= Seq(
 
 metadataObject := name.value
 
-addCommandAlias("nispero-run", ";reload;run")
+dependencyOverrides += "ohnosequences" % "aws-statika_2.10" % "1.0.1"
 
 mergeStrategy in assembly <<= (mergeStrategy in assembly) { (old) =>
   {
